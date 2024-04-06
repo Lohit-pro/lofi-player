@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/lofi-player/static/css/main.1986562c.css",
+    "main.js": "/lofi-player/static/js/main.2568940b.js",
+    "static/media/song7.mp3": "/lofi-player/static/media/song7.3cdf7acb7af11d62f5dd.mp3",
+    "static/media/song1.mp3": "/lofi-player/static/media/song1.9abbfd2bb5f401c223da.mp3",
+    "static/media/song3.mp3": "/lofi-player/static/media/song3.e524140847bca70a00bf.mp3",
+    "static/media/song10.mp3": "/lofi-player/static/media/song10.4a781c22d50224b5a468.mp3",
+    "static/media/song4.mp3": "/lofi-player/static/media/song4.eba40a65b64ac4245fdc.mp3",
+    "static/media/song6.mp3": "/lofi-player/static/media/song6.83e95b79db6622604dd2.mp3",
+    "static/media/song13.mp3": "/lofi-player/static/media/song13.073b3eb2bc8b948be53e.mp3",
+    "static/media/song9.mp3": "/lofi-player/static/media/song9.4a7acdb6eaa8445058ec.mp3",
+    "static/media/song14.mp3": "/lofi-player/static/media/song14.ac8ef3d0de68bcf4dca0.mp3",
+    "static/media/song15.mp3": "/lofi-player/static/media/song15.1250185bc0eb4f45c2de.mp3",
+    "static/media/song5.mp3": "/lofi-player/static/media/song5.0a4b3a8536e38635439b.mp3",
+    "static/media/song2.mp3": "/lofi-player/static/media/song2.8789463f058886896768.mp3",
+    "static/media/song11.mp3": "/lofi-player/static/media/song11.7f291d7d82f717f0237f.mp3",
+    "static/media/song12.mp3": "/lofi-player/static/media/song12.067fcd69bf46795a3c89.mp3",
+    "static/media/song8.mp3": "/lofi-player/static/media/song8.55bcec7460d26b5e5968.mp3",
+    "static/media/static2.gif": "/lofi-player/static/media/static2.58dd57cc391c7190bf4d.gif",
+    "static/media/static4.gif": "/lofi-player/static/media/static4.c9a6697a5528cd3a16d7.gif",
+    "static/media/static5.gif": "/lofi-player/static/media/static5.d5b054745b64d1d28e85.gif",
+    "static/media/static3.gif": "/lofi-player/static/media/static3.403f64eba78a61a389a6.gif",
+    "static/media/static6.gif": "/lofi-player/static/media/static6.f5f187376aefd3eb671d.gif",
+    "static/media/static7.gif": "/lofi-player/static/media/static7.0875e12cc3f5402c3026.gif",
+    "static/media/static1.gif": "/lofi-player/static/media/static1.ba3390bd22406ccd33a3.gif",
+    "static/media/vignette.png": "/lofi-player/static/media/vignette.143bb98b3445e0debcdb.png",
+    "static/media/pointer.svg": "/lofi-player/static/media/pointer.844dfe10c7f1fe00ba63.svg",
+    "index.html": "/lofi-player/index.html",
+    "static/media/pause.svg": "/lofi-player/static/media/pause.69ddfc29dadcaf882ae65492bd66a328.svg",
+    "static/media/next.svg": "/lofi-player/static/media/next.64c7a860feca4d95b46009f7a885fb1f.svg",
+    "static/media/previous.svg": "/lofi-player/static/media/previous.17bb0c5758c4d87762a0aa8acd55d6e7.svg",
+    "static/media/play.svg": "/lofi-player/static/media/play.1055bee622213985d4ecb5fe784e4cef.svg",
+    "main.1986562c.css.map": "/lofi-player/static/css/main.1986562c.css.map",
+    "main.2568940b.js.map": "/lofi-player/static/js/main.2568940b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1986562c.css",
+    "static/js/main.2568940b.js"
+  ]
+}
