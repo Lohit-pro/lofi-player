@@ -1,0 +1,147 @@
+@import url('https://fonts.cdnfonts.com/css/public-pixel');
+/* @import url('https://fonts.cdnfonts.com/css/devin-chavez-font'); */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.change-gif-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.text {
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-family: 'Devin Chavez Font', sans-serif;
+  font-size: 10px;
+  color: white;
+}
+
+.pointer {
+  width: auto;
+  display: inline-block;
+  z-index: 12;
+}
+
+.green-box-container{
+  padding-right: 5px;
+  display: inline-block;
+
+}
+
+.green-box {
+  width: 6px;
+  height: 16px;
+  background-color: white;
+  pointer-events: auto;
+  opacity: 0.5;
+}
+
+.green-box.active-box{
+  opacity: 1;
+}
+
+button, select, .pointer {
+  cursor: url(images/cursors/pointer.svg), pointer !important;
+}
+
+.transition-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0s ease-in-out;
+  pointer-events: none;
+  z-index: 999;
+  /* diğer gifin önünde olması için */
+}
+
+.transition-gif.show {
+  opacity: 1;
+}
+
+.img-btn {
+  width: 35px;
+  height: 80px;
+}
+
+.gifs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.crt-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(images/lines.jpeg);
+  z-index: 10;
+  background-size: 7px auto;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  opacity: 0.4;
+  animation: moveDownAnimation 150s linear infinite;
+}
+
+.vignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(images/vignette.png);
+  z-index: 11;
+  background-size: 100% 100%;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.dark {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 1s;
+}
