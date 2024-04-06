@@ -1,6 +1,9 @@
 {
   "name": "lofi",
   "version": "0.1.0",
+  "homepage": "https://Lohit-pro.github.io/lofi-player",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
